@@ -1,0 +1,25 @@
+.card {
+  cursor: pointer;
+}
+
+.image {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.card:hover img {
+  transform: scale(1.2) rotate(6deg);
+}
+
+img {
+  width: 70%;
+  transition: .3s;
+}
+
+.title {
+  white-space: nowrap;
+}
